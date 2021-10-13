@@ -1,7 +1,9 @@
 ## Superdense coding
 Superdense coding bruger simpelt, men elegant, de fundementale principper i kvantemekanikken. Princippet er at to parter, eks. Alice og Bob, deler et par qubits
 i bellstate'en. 
-![](https://github.com/fred465f/Frederiks_Portfolio/blob/main/image/bell.png)
+
+![](https://github.com/fred465f/Frederiks_Portfolio/blob/main/image/bell.png = 250x250)
+
 Med dette delte par qubits, ønsker Alice ved blot at sende Bob en qubit, at sende to bits klassisk information til Bob. Dette er en klassisk umulig opgave.
 Tanken er den, at givet om Alice ønsker at sende 00, 01, 10 eller 11 som den klassiske bitstring til Bob, udfører hun en ud af fire operationer på sin qubit, og sender
 den derefter til Bob, hvor han så foretager en måling i bell-basen, som er en orthonormal basis, hvormed de fire bell-states kan skelnes fra hinanden.
