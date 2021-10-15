@@ -2,13 +2,17 @@
 Superdense coding bruger simpelt, men elegant, de fundementale principper i kvantemekanikken. Princippet er at to parter, eks. Alice og Bob, deler et par qubits
 i bellstate'en. 
 
-<p align="center">
-  <img src="https://github.com/fred465f/Frederiks_Portfolio/blob/main/image/bell.png" width="140" height="70">
-</p>
+![](https://github.com/fred465f/Frederiks_Portfolio/blob/main/image/bell.png)
+
+<img src="https://github.com/fred465f/Frederiks_Portfolio/blob/main/image/bell.png" width=20% height=20%/>
 
 Med dette delte par qubits, ønsker Alice ved blot at sende Bob en qubit, at sende to bits klassisk information til Bob. Dette er en klassisk umulig opgave.
 Tanken er den, at givet om Alice ønsker at sende 00, 01, 10 eller 11 som den klassiske bitstring til Bob, udfører hun en ud af fire operationer på sin qubit, og sender
-den derefter til Bob, hvor han så foretager en måling i bell-basen, som er en orthonormal basis, hvormed de fire bell-states kan skelnes fra hinanden.
+den derefter til Bob. 
+
+
+
+Efter modtagelsen af Alice's qubit er tricket, at Bob ikke behæver nogen information om den modtagne qubit for at decode beskeden. Han udfører blot CNOT gate, hvor den modtagne qubit er control-qubit'en og hans egen er target-qubit'en, herefter udfører han en hadamard gate på den modtagne qubit, og måler til sidst begge qubits i den computationelle basis.
 
 ## Welcome to GitHub Pages
 
